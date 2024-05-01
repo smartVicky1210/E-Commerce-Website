@@ -30,8 +30,118 @@
      </section>
 
      <section id="prodetails" class="section-p1">
-        
+         <div class="single-pro-image">
+          <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+
+          <div class="small-img-group">
+            <div class="small-img-col">
+              <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+            </div>
+          </div>
+         </div>
+         <div class="single-pro-details">
+          <h6>Home / T-Shirt</h6>
+          <h4>Men's Fashion T Shirts</h4>
+          <h2>$139.00</h2>
+          <select>
+            <option>Select Size</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>Small</option>
+            <option>Large</option>
+          </select>
+          <input type="number" value="1">
+          <button class="normal">Add To Cart</button>
+          <h4>Product Details</h4>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Labore perferendis voluptatibus alias architecto
+             expedita. Earum rem ea, sequi quo reiciendis voluptates,
+              natus quod est veniam accusamus distinctio, repellat
+             minima dolore!</span>
+
+         </div>
      </section>
+
+     <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+ <div class="pro">
+   <img src="img/products/n5.jpg" alt="">
+   <div class="des">
+       <span>adidas</span>
+       <h5>Cartoon Astronaut T-Shirts</h5>
+       <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+       </div>
+       <h4>$78</h4>
+   </div>
+   <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+ </div>
+ <div class="pro">
+   <img src="img/products/n6.jpg" alt="">
+   <div class="des">
+       <span>adidas</span>
+       <h5>Cartoon Astronaut T-Shirts</h5>
+       <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+       </div>
+       <h4>$78</h4>
+   </div>
+   <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+ </div>
+ <div class="pro">
+   <img src="img/products/n7.jpg" alt="">
+   <div class="des">
+       <span>adidas</span>
+       <h5>Cartoon Astronaut T-Shirts</h5>
+       <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+       </div>
+       <h4>$78</h4>
+   </div>
+   <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+ </div>
+ <div class="pro">
+   <img src="img/products/n8.jpg" alt="">
+   <div class="des">
+       <span>adidas</span>
+       <h5>Cartoon Astronaut T-Shirts</h5>
+       <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+       </div>
+       <h4>$78</h4>
+   </div>
+   <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+ </div>
+     </div>
+     </section>
+
      
      <section id="newsletter" class="section-p1 section-m1">
       <div class="newstext">
@@ -92,6 +202,25 @@
         <img src="img/pay/pay.png" alt="">
       </div>
      </footer>
+
+     <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+    
+      smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src;
+      }
+      smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+      }
+      smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+      }
+      smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+      }
+    </script>
+
     <script src="script.js"></script>
 </body>
 </html> 
